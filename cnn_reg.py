@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 def generate_data(num_samples=1000, img_height=64, img_width=64):
     """
     Generate synthetic grayscale images of shape (num_samples, 64, 64, 1)
-    and random continuous targets in the range [0, 100]..
+    and random continuous targets in the range [0, 100]..b
     """
     # Create random images
     X = np.random.rand(num_samples, img_height, img_width, 1).astype(np.float32)
